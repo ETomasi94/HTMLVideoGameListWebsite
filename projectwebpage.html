@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista dei videogiochi</title>
+</head>
+<body>
+    <h1>Lista dei videogiochi completati dal 2017 al 2022</h1>
+    <p><img src="Immagini/VideoGames.avif" width ="700" height="300"></p>
+
+    <hr>
+    
+    <h3>Un po' di musica per caricarvi</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pSvn0rp0kz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <hr>
+
+    <h2>Questa è una lista dei videogiochi completati dal 2017 al 2022, memorizzati includento:</h2>
+    
+    <p>
+        <ul>
+            <li>ID sequenziale del videogioco (in ordine di completamento)</li>
+            <li>Data ed ora del completamento</li>
+            <li>Console su cui è stato completato il videogioco</li>
+            <li>Titolo del videogioco</li>
+            <li>Note sul completamento del videogioco</li>
+        </ul>
+    </p>
+
+    <hr>
+
+    <p>Verrà in seguito implementata una funzionalità di ricera 
+    </p>
+
+    
+    <h4>Ricerca all'interno della tabella (da implementare)</h4>
+    
+    <p>Anno di completamento: <input type="number"></p>
+    
+    <p>Anno di pubblicazione: <input type="number"></p>
+    
+    <p>Titolo:<input type="text"></p>
+    
+    <p>Completamento al 100%:<input type="checkbox"></p>
+    
+    <p>Console di gioco: <select>
+        <option value="PC">PC</option>
+        <option value="PS1">PS1</option>
+        <option value="PS2">PS2</option>
+        <option value="PS3">PS3</option>
+        <option value="PS4">PS4</option>
+        <option value="NDS">NDS</option>
+        <option value="WII">WII</option>
+        <option value="GC">GC</option>
+        <option value="3DS">3DS</option>
+    </select></p>
+    <h5>Ordinare per data di completamento?</h5>
+
+    <p>Si<input type="radio" name="orderedByDate" value="Yes"></p>
+    <p>No<input type="radio" name="orderedByDate" value="No"></p>
+
+    <p><input type="submit" value="Inizio"></p>
+
+    <hr>
+
+    <h2>Tabella dei videogiochi</h2>
+    <TABLE BORDER=1 BGCOLOR=#ffffff CELLSPACING=0><FONT FACE="Calibri" COLOR=#000000><CAPTION><B>Videogiochi</B></CAPTION></FONT>
+
+        <THEAD>
+        <TR>
+        <TH BGCOLOR=#c0c0c0 BORDERCOLOR=#000000 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>ID</FONT></TH>
+        <TH BGCOLOR=#c0c0c0 BORDERCOLOR=#000000 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Data</FONT></TH>
+        <TH BGCOLOR=#c0c0c0 BORDERCOLOR=#000000 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Console</FONT></TH>
+        <TH BGCOLOR=#c0c0c0 BORDERCOLOR=#000000 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Titolo</FONT></TH>
+        <TH BGCOLOR=#c0c0c0 BORDERCOLOR=#000000 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Note</FONT></TH>
+        
+        </TR>
+        </THEAD>
+        <TBODY>
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>14/01/2017 14:30:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Tomb Raider : Anniversary</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>09/02/2017 14:48:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Grand Theft Auto IV : TBOGT</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>20/03/2017 11:52:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 6</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>4</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>02/04/2017 14:12:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil Remake HD</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>5</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>20/04/2017 19:54:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>NDS</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Pokemon Versione Soul Silver</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>6</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>02/05/2017 12:53:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Grand Theft Auto : Liberty City Stories</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>7</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>02/05/2017 22:42:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Project Zero</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>8</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>07/07/2017 12:55:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Dishonored </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>(Caos Basso)</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>9</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>17/07/2017 14:30:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Hitman : Blood Money</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>10</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>12/09/2017 03:30:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil Zero HD</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>11</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>22/09/2017 17:54:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Crash Bandicoot</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>12</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>21/12/2017 00:56:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Mirror's Edge</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>13</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>27/12/2017 15:53:20</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Life is Strange : Before the Storm</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>14</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>29/12/2017 16:01:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil : Revelations</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>15</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>02/03/2018 18:12:50</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Murdered : Soul Suspect</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>16</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>25/04/2018 04:43:12</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Red Dead Redemption </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>100%</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>17</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>28/04/2018 02:20:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Red Dead Redemption : Undead Nightmare </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>100%</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>18</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>02/05/2018 15:37:45</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Catherine </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>(Katherine Good Ending)</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>19</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>14/05/2018 01:15:34</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Beyond : Due Anime </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>(Finale Ryan)</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>20</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>07/06/2018 20:16:22</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Heavy Rain </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>(Finale New Life)</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>21</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>13/10/2018 19:59:53</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Jak II Renegade</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>22</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>15/10/2018 22:27:50</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Assassin's Creed</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>23</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>30/11/2018 13:32:15</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Dante's Inferno</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>24</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>07/12/2018 15:19:54</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Assassin's Creed II </FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>100%</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>25</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>13/03/2019 21:02:30</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Jak 3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>26</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>08/05/2019 15:42:30</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 7</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Finale buono</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>27</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>09/05/2019 11:42:10</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 7 : Not a Hero</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>28</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>20/05/2019 00:10:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Half-Life 2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>29</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>05/07/2019 20:41:18</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 2 Remake</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Scenario Leon A</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>30</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>06/07/2019 03:15:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 2 Remake</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Scenario Claire B</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>31</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>06/07/2019 20:55:32</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 2 Remake</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Scenario Claire A</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>32</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>19/08/2019 22:52:05</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>NDS</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Pokemon Versione Bianca</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>33</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>11/12/2019 00:26:40</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS4</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Red Dead Redemption 2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Aiuta John nella fuga, Onore Alto,100%</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>34</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>17/12/2019 20:08:42</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS3</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Uncharted: Drake's Fortune</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Facile</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>35</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>02/03/2020 23:14:30</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS4</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Uncharted 2 : Il covo dei ladri</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Medio</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>36</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>16/03/2020 17:06:35</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Soldier of Fortune</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>37</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>18/03/2020 21:43:29</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Half Life 2: Episode One</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>38</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>09/06/2020 00:42:40</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Harry Potter e la pietra filosofale</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>39</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>12/08/2020 13:07:38</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>The Evil Within</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>40</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>06/11/2020 18:51:24</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Silent Hill : Origins</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>41</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>08/11/2020 18:36:55</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Harry Potter ed il prigioniero di Azkaban</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>42</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>17/11/2020 02:52:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Resident Evil 3 Remake</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Difficolt&agrave; standard</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>43</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>12/12/2020 19:34:20</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Giantz : Citizen Kabuto</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>44</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>16/02/2021 14:49:23</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>NDS</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Pokemon versione bianca 2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>45</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>26/04/2021 17:50:36</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>WII</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Fragile Dreams: Farewell ruins of the moon</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>46</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>08/11/2021 21:34:10</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Metal Gear Solid</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Finale Otacon</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>47</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>29/11/2021 00:35:34</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Alan Wake</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>48</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>04/12/2021 17:49:40</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Aragami</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>49</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>17/12/2021 00:39:10</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Medievil</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Vero Finale, 100%</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>50</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>18/12/2021 05:06:00</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PSP</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Syphon Filter: Dark Mirror</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Difficolt&agrave; normale</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>51</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>27/02/2022 14:52:48</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Devil May Cry</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Difficolt&agrave; normale</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>52</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>07/03/2022 08:30:26</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Crash Bandicoot: L'ira di cortex</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Cristalli e gemme</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>53</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>08/03/2022 23:24:10</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Half Life 2: Episode Two</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>54</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>23/04/2022 16:06:50</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Silent Hill</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Finale Good+</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>55</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>23/04/2022 23:38:53</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS1</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Klonoa: Door to Phantomile</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>56</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>30/09/2022 21:47:52</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PC</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Assassin's Creed: Brotherhood</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>100%</FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>57</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>06/10/2022 01:15:24</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS2</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Harry Potter e la pietra filosofale</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000><BR></FONT></TD>
+        
+        </TR>
+        
+        <TR VALIGN=TOP>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=RIGHT><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>58</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>09/10/2022 20:06:54</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5  ALIGN=CENTER><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>PS4</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Uncharted 3: L'inganno di Drake</FONT></TD>
+        <TD BORDERCOLOR=#d0d7e5 ><FONT style=FONT-SIZE:11pt FACE="Calibri" COLOR=#000000>Difficile</FONT></TD>
+        
+        </TR>
+        </TBODY>
+        <TFOOT></TFOOT>
+        </TABLE>
+</body>
+</html>
